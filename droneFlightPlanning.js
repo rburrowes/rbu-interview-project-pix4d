@@ -1,4 +1,4 @@
-describe('Successful  flight plan map image point insertion', function() {
+describe('Successful flight plan map image point insertion', function() {
 	it('Given the application is loaded', function() {
 		browser.get('https://stupendous-birth.surge.sh');
 		browser.sleep(1500);
