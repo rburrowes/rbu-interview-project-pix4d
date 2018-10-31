@@ -1,0 +1,12 @@
+# Eclipse project files
+# =====================
+.project
+.settings/
+.*.md.html
+.metadata
+*~.nib
+local.properties
+
+# Tern plugin
+# ===========
+.tern-project
