@@ -38,26 +38,6 @@ describe('Successful flight plan map image point insertion',
 				function() {
 				element(by.buttonText('Create a new Flight Planadd')).click();
 				browser.sleep(1500);
-				
-				// assertions
-//				expect(element(by.css("svg[class='leaflet-zoom-animated']")).getAttribute(width))
-//					.toBe("1559")
-//				expect(element(by.css("svg[class='leaflet-zoom-animated']")).getAttribute(height))
-//					.toBe("493")
-						
-				// logging
-//				element(by.css("svg[class='leaflet-zoom-animated']"))
-//					.getAttribute(width).then(
-//						function(mapWidth) {
-//						console.log("Map width is: " + mapWidth);
-//						}
-//					)
-//				element(by.css("svg[class='leaflet-zoom-animated']"))
-//					.getAttribute(height).then(
-//						function(mapHeight) {
-//						console.log("Map height is: " + mapHeight);
-//						}
-//					)
 				}
 		)
 		it('When the main panel is clicked', 
